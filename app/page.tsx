@@ -1,0 +1,25 @@
+import { Header } from '@/components/header'
+import { Hero } from '@/components/hero'
+import { About } from '@/components/about'
+// import { VehiclePark } from '@/components/vehicle-park'
+import { Fleet } from '@/components/fleet'
+import { Services } from '@/components/services'
+import { Testimonials } from '@/components/testimonials'
+import { Contact } from '@/components/contact'
+import { Footer } from '@/components/footer'
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-background text-foreground">
+      <Header />
+      <Hero />
+      <About />
+      {/* <VehiclePark /> */}
+      <Fleet />
+      <Services />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </main>
+  )
+}
