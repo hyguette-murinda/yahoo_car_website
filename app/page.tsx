@@ -17,7 +17,7 @@ export default function Home() {
       {/* <VehiclePark /> */}
       <Fleet />
       <Services />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </main>

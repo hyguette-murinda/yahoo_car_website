@@ -10,20 +10,11 @@ const services = [
     title: 'Long Distance Transport',
     description: 'Yahoo Car\'s efficient long-distance transportation with dedicated drivers and real-time tracking technology.',
   },
-  {
-    icon: Package,
-    title: 'Freight Shipping',
-    description: 'Secure cargo handling with Yahoo Car\'s professional packaging solutions and comprehensive insurance coverage.',
-  },
+
   {
     icon: Globe,
     title: 'Private Transport',
     description: 'Seamless global logistics through Yahoo Car\'s network with customs clearance and documentation support.',
-  },
-  {
-    icon: Clock,
-    title: 'Express Delivery',
-    description: 'Yahoo Car\'s express delivery ensures your time-sensitive shipments arrive exactly when needed.',
   },
 ]
 
@@ -42,7 +33,7 @@ export function Services() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6">
           {services.map((service, index) => {
             const Icon = service.icon
             const isHovered = hoveredIndex === index
